@@ -1,0 +1,84 @@
+.navbar-brand:hover {
+    font-size: 1.24em;
+    font-weight: bolder;
+}
+
+.nav-item::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 90%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background:#bbb;
+}
+
+.nav-item:hover::before {
+    display: block;
+    animation-name: AnimationNavLink;
+    animation-duration: 0.7s;
+}
+
+@keyframes AnimationNavLink {
+    0% {
+        width: 0%;
+    }
+    5% {
+        width: 5%;
+    }
+    10% {
+        width: 10%;
+    }
+    15% {
+        width: 15%;
+    }
+    20% {
+        width: 20%;
+    }
+    10% {
+        width: 10%;
+    }
+    25% {
+        width: 25%;
+    }
+    30% {
+        width: 30%;
+    }
+    35% {
+        width: 35%;
+    }
+    40% {
+        width: 40%;
+    }
+    45% {
+        width: 45%;
+    }
+    50% {
+        width: 50%;
+    }
+    55% {
+        width: 55%;
+    }
+    60% {
+        width: 60%;
+    }
+    65% {
+        width: 65%;
+    }
+    70% {
+        width: 70%;
+    }
+    75% {
+        width: 75%;
+    }
+    80% {
+        width: 80%;
+    }
+    85% {
+        width: 85%;
+    }
+    90% {
+        width: 90%;
+    }
+}
